@@ -5,7 +5,7 @@ import tensorflow as tf
 import librosa
 from io import BytesIO
 
-model = tf.keras.models.load_model(r'C:\model.h4')
+model = tf.keras.models.load_model('model.h4')
 app = FastAPI()
 
 class AudioModel(BaseModel):
